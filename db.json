@@ -12,7 +12,7 @@
     },
     {
       "id": 2, 
-      "email": "user2@gmail.com",
+      "mail": "user2@gmail.com",
       "nom": "nom2",
       "prenom": "prenom2",
       "adr": "adresse2",
@@ -22,7 +22,7 @@
     },
     {
       "id": 3, 
-      "email": "user3@gmail.com",
+      "mail": "user3@gmail.com",
       "nom": "nom3",
       "prenom": "prenom3",
       "adr": "adresse1",
