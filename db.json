@@ -1,62 +1,73 @@
 {
-	"admins": [{
-			"id": 1,
-			"mail": "fi_ahmed_bacha@esi.dz",
-			"nom": "AHMED BACHA",
-			"prenom": "Ibrahim"
-		},
-		{
-			"id": 2,
-			"mail": "fb_kellou@esi.dz",
-			"nom": "KELLOU",
-			"prenom": "Brahim"
-		}
-	],
-	"manufacturers": [{
-			"id": 1,
-			"nom": "Peugeot",
-			"nationalite": "France"
-		},
-		{
-			"id": 2,
-			"nom": "Fiat",
-			"nationalite": "Italie"
-		},
-		{
-			"id": 3,
-			"nom": "Renault",
-			"nationalite": "France"
-		}
-	],
-	"users": [{
-			"id": 1,
-			"mail": "user1@gmail.com",
-			"nom": "nom1",
-			"prenom": "prenom1",
-			"adr": "adresse1",
-			"tel": "(+213) 111-111-111",
-			"bloque": false,
-			"nom_fab": "Renault"
-		},
-		{
-			"id": 2,
-			"mail": "user2@gmail.com",
-			"nom": "nom2",
-			"prenom": "prenom2",
-			"adr": "adresse2",
-			"tel": "(+213) 222-222-222",
-			"bloque": false,
-			"nom_fab": "Fiat"
-		},
-		{
-			"id": 3,
-			"mail": "user3@gmail.com",
-			"nom": "nom3",
-			"prenom": "prenom3",
-			"adr": "adresse3",
-			"tel": "(+213) 333-333-333",
-			"bloque": false,
-			"nom_fab": "Peugeot"
-		}
-	]
+	"admins": {
+		"data": [{
+				"id": 1,
+				"mail": "fi_ahmed_bacha@esi.dz",
+				"nom": "AHMED BACHA",
+				"prenom": "Ibrahim"
+			},
+			{
+				"id": 2,
+				"mail": "fb_kellou@esi.dz",
+				"nom": "KELLOU",
+				"prenom": "Brahim"
+			}
+		],
+		"total": 2
+	},
+	"manufacturers": {
+		"data": [{
+				"id": 1,
+				"nom": "Peugeot",
+				"nationalite": "France"
+			},
+			{
+				"id": 2,
+				"nom": "Fiat",
+				"nationalite": "Italie"
+			},
+			{
+				"id": 3,
+				"nom": "Renault",
+				"nationalite": "France"
+			}
+		],
+		"total": 3
+	},
+	"manufacturersUsers": {
+		"data": [
+
+			{
+				"id": 1,
+				"mail": "user1@gmail.com",
+				"nom": "nom1",
+				"prenom": "prenom1",
+				"adr": "adresse1",
+				"tel": "(+213) 111-111-111",
+				"bloque": false,
+				"nom_fab": "Renault"
+			},
+			{
+				"id": 2,
+				"mail": "user2@gmail.com",
+				"nom": "nom2",
+				"prenom": "prenom2",
+				"adr": "adresse2",
+				"tel": "(+213) 222-222-222",
+				"bloque": false,
+				"nom_fab": "Fiat"
+			},
+			{
+				"id": 3,
+				"mail": "user3@gmail.com",
+				"nom": "nom3",
+				"prenom": "prenom3",
+				"adr": "adresse3",
+				"tel": "(+213) 333-333-333",
+				"bloque": false,
+				"nom_fab": "Peugeot"
+			}
+		],
+		"total": 3
+	}
 }
